@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ExcelData"  parallel="tests" thread-count="4">
+ 
+  <!-- first browser for firefox -->
+  <test  name="fftest">
+  <parameter name="browser" value="ff"></parameter>
+    <classes>
+     <!--  <class name="com.ExcelDataTest.FirstWay_ExcelTest"/> -->
+       <class name="com.secondway.Secondway_ExcelTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <!-- second browser for chrome -->
+  <test  name="chrometest">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+     <!--  <class name="com.ExcelDataTest.FirstWay_ExcelTest"/> -->
+       <class name="com.secondway.Secondway_ExcelTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <!--thrid browser for ie -->
+  <test  name="ietest">
+  <parameter name="browser" value="ie"></parameter>
+    <classes>
+     <!--  <class name="com.ExcelDataTest.FirstWay_ExcelTest"/> -->
+       <class name="com.secondway.Secondway_ExcelTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- ExcelData -->

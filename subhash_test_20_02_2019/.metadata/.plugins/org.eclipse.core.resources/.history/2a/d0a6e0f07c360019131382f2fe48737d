@@ -1,0 +1,19 @@
+package com.oopsconcepts;
+
+
+//Constructor is a block of code that initializes the newly created object.
+//A constructor resembles an instance method in java but it's not a method as it doesn't have a return type. ...
+//Constructor has same name as the class and looks like this in a java code.
+
+public class Encapsulations {
+	
+	private int i=100;
+	private String name="subhash";
+	
+	
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,34 @@
+package corejavaprog;
+
+public class IdentifiDupilicates {
+
+	public static void main(String[] args) {
+		
+		String name="hi java hi" ;//hi a
+		int leg=name.length();
+		int count =0;
+		char a[]=name.toCharArray();
+		for (int i = 0; i < leg; i++) {
+			for (int j = i; j < leg; j++) {
+				
+				if(a[i]==a[j])
+				{  
+					System.out.print(a[j]);
+					count ++;
+					break;
+				}
+				
+			}
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
